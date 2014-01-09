@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A7B2DFF9187E419B003679F0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7B2DFF8187E419B003679F0 /* UIKit.framework */; };
+		A7B2DFFB187E419B003679F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7B2DFFA187E419B003679F0 /* Foundation.framework */; };
+		A7B2DFFD187E419B003679F0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7B2DFFC187E419B003679F0 /* CoreGraphics.framework */; };
+		A7B2E003187E419B003679F0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A7B2E001187E419B003679F0 /* InfoPlist.strings */; };
+		A7B2E005187E419B003679F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B2E004187E419B003679F0 /* main.m */; };
+		A7B2E009187E419B003679F0 /* RXLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B2E008187E419B003679F0 /* RXLAppDelegate.m */; };
+		A7B2E00B187E419B003679F0 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A7B2E00A187E419B003679F0 /* Default.png */; };
+		A7B2E00D187E419B003679F0 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A7B2E00C187E419B003679F0 /* Default@2x.png */; };
+		A7B2E00F187E419B003679F0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A7B2E00E187E419B003679F0 /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A7B2DFF5187E419B003679F0 /* 自定义Cell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "自定义Cell.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7B2DFF8187E419B003679F0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A7B2DFFA187E419B003679F0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A7B2DFFC187E419B003679F0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A7B2E000187E419B003679F0 /* 自定义Cell-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "自定义Cell-Info.plist"; sourceTree = "<group>"; };
+		A7B2E002187E419B003679F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A7B2E004187E419B003679F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A7B2E006187E419B003679F0 /* 自定义Cell-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "自定义Cell-Prefix.pch"; sourceTree = "<group>"; };
+		A7B2E007187E419B003679F0 /* RXLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RXLAppDelegate.h; sourceTree = "<group>"; };
+		A7B2E008187E419B003679F0 /* RXLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RXLAppDelegate.m; sourceTree = "<group>"; };
+		A7B2E00A187E419B003679F0 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A7B2E00C187E419B003679F0 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A7B2E00E187E419B003679F0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7B2DFF2187E419B003679F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7B2DFF9187E419B003679F0 /* UIKit.framework in Frameworks */,
+				A7B2DFFB187E419B003679F0 /* Foundation.framework in Frameworks */,
+				A7B2DFFD187E419B003679F0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A7B2DFEC187E419B003679F0 = {
+			isa = PBXGroup;
+			children = (
+				A7B2DFFE187E419B003679F0 /* 自定义Cell */,
+				A7B2DFF7187E419B003679F0 /* Frameworks */,
+				A7B2DFF6187E419B003679F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A7B2DFF6187E419B003679F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7B2DFF5187E419B003679F0 /* 自定义Cell.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7B2DFF7187E419B003679F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7B2DFF8187E419B003679F0 /* UIKit.framework */,
+				A7B2DFFA187E419B003679F0 /* Foundation.framework */,
+				A7B2DFFC187E419B003679F0 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A7B2DFFE187E419B003679F0 /* 自定义Cell */ = {
+			isa = PBXGroup;
+			children = (
+				A7B2E007187E419B003679F0 /* RXLAppDelegate.h */,
+				A7B2E008187E419B003679F0 /* RXLAppDelegate.m */,
+				A7B2DFFF187E419B003679F0 /* Supporting Files */,
+			);
+			path = "自定义Cell";
+			sourceTree = "<group>";
+		};
+		A7B2DFFF187E419B003679F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7B2E000187E419B003679F0 /* 自定义Cell-Info.plist */,
+				A7B2E001187E419B003679F0 /* InfoPlist.strings */,
+				A7B2E004187E419B003679F0 /* main.m */,
+				A7B2E006187E419B003679F0 /* 自定义Cell-Prefix.pch */,
+				A7B2E00A187E419B003679F0 /* Default.png */,
+				A7B2E00C187E419B003679F0 /* Default@2x.png */,
+				A7B2E00E187E419B003679F0 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7B2DFF4187E419B003679F0 /* 自定义Cell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7B2E012187E419B003679F0 /* Build configuration list for PBXNativeTarget "自定义Cell" */;
+			buildPhases = (
+				A7B2DFF1187E419B003679F0 /* Sources */,
+				A7B2DFF2187E419B003679F0 /* Frameworks */,
+				A7B2DFF3187E419B003679F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "自定义Cell";
+			productName = "自定义Cell";
+			productReference = A7B2DFF5187E419B003679F0 /* 自定义Cell.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7B2DFED187E419B003679F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RXL;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "任小林";
+			};
+			buildConfigurationList = A7B2DFF0187E419B003679F0 /* Build configuration list for PBXProject "自定义Cell" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A7B2DFEC187E419B003679F0;
+			productRefGroup = A7B2DFF6187E419B003679F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7B2DFF4187E419B003679F0 /* 自定义Cell */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7B2DFF3187E419B003679F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7B2E003187E419B003679F0 /* InfoPlist.strings in Resources */,
+				A7B2E00B187E419B003679F0 /* Default.png in Resources */,
+				A7B2E00D187E419B003679F0 /* Default@2x.png in Resources */,
+				A7B2E00F187E419B003679F0 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7B2DFF1187E419B003679F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7B2E005187E419B003679F0 /* main.m in Sources */,
+				A7B2E009187E419B003679F0 /* RXLAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A7B2E001187E419B003679F0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7B2E002187E419B003679F0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A7B2E010187E419B003679F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A7B2E011187E419B003679F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7B2E013187E419B003679F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "自定义Cell/自定义Cell-Prefix.pch";
+				INFOPLIST_FILE = "自定义Cell/自定义Cell-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A7B2E014187E419B003679F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "自定义Cell/自定义Cell-Prefix.pch";
+				INFOPLIST_FILE = "自定义Cell/自定义Cell-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7B2DFF0187E419B003679F0 /* Build configuration list for PBXProject "自定义Cell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7B2E010187E419B003679F0 /* Debug */,
+				A7B2E011187E419B003679F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7B2E012187E419B003679F0 /* Build configuration list for PBXNativeTarget "自定义Cell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7B2E013187E419B003679F0 /* Debug */,
+				A7B2E014187E419B003679F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A7B2DFED187E419B003679F0 /* Project object */;
+}
